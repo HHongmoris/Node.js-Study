@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { Inject, Injectable } from "@nestjs/common";
+import { Injectable } from "@nestjs/common";
 import { readFile, writeFile } from "fs/promises";
 import { PostDto } from "./blog.model";
 import { InjectModel } from "@nestjs/mongoose";
